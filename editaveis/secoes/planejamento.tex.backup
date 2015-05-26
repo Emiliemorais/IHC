@@ -1,0 +1,13 @@
+\chapter{Planejamento das Avaliações}
+
+\begin{figure}[h!]
+%   \centering
+    \includegraphics[keepaspectratio=true, scale=0.5]{figuras/planejamentoavaliacoes.png}
+  \caption{Planejamento das avaliações}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[keepaspectratio=true, scale=0.7]{figuras/listaproblemas.png}
+  \caption{Lista de problemas das avaliações}
+\end{figure}

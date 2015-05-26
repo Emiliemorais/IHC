@@ -1,0 +1,74 @@
+\chapter{Questionários de Avaliação}
+\label{questionarios}
+Algumas ferramentas e serviços de questionários de usabilidade foram estudados para aplicação de um ou mais serviços ou ferramentas neste projeto.
+
+\begin{itemize}
+ \item WAMMI - Website Analysis and MeasureMent Inventory: É um serviço prestado através da WEB, de produção de questionários com base no perfil do site a ser avaliado. 
+ No WAMMI o questionário é gerado com 20 questões inalteráveis, baseadas no perfil do produto a ser avaliado e em cinco áreas: atratividade, controlabilidade, eficiência, 
+ utilidade e capacidade de aprendizado, e depois é disponibilizado através de uma URL. Após um período de tempo o questionário é encerrado e os resultados são divulgados 
+ através de notas para cada área, bem como uma nota geral de avaliação. O WAMMI é um serviço pago, todavia há a prestação do serviço de forma gratuita para fins acadêmicos. 
+
+ \item QUIS - Questionnaire for User Interface Satisfaction: É uma ferramenta criada com o intuito de avaliar a usabilidade de um sistema através de 90 perguntas,
+ respondidas em uma escala de 0 a 9 para os seguintes fatores: Fatores relacionados às telas, terminologia e retorno do sistema, fatores relacionados ao aprendizado, 
+ capacidade do sistema, manuais técnicos, tutoriais on-line, multimídia, teleconferência e instalação do software. Não possui licença gratuita para fins acadêmicos.
+
+ \item ErgoList: É uma ferramenta online que visa medir a qualidade de uma aplicação, relacionada a usabilidade, através de questionários. 
+ A ferramenta apresenta 18 tópicos e um conjunto de perguntas sobre o respectivo tópico. Ao final, não é gerado relatório, portanto pode-se utilizá-la 
+ apenas para consulta de exemplos de questões. 
+ 
+ \item SUMI - Software Usability Measurement Inventory: É um método de medição da usabilidade e qualidade de software a partir do ponto de vista do usuário final.
+ A medição é feita através de um questionário que contém afirmações onde os usuários devem escolher entre: AGREE (Concorda), UNDECIDED (indeciso) e DISAGREE (discorda). 
+ Fornece um relatório pormenorizado, incluindo análise de conteúdo de algumas questões adicionais. 
+
+ O SUMI oferece condições especiais para universidades e instituições que desejem utilizá-lo. Se você é um estudante, você pode pedir para usar SUMI em um projeto. No entanto, os resultados são de cunho exclusivamente acadêmico.
+ 
+ \item SUS: É uma ferramenta rápida e confiável para medir a usabilidade do produto. A medição consiste em um questionário de 10 (dez) itens com cinco níveis de resposta, 
+ que vão de concordo fortemente a discordo veementemente. O SUS permite avaliar uma grande variedade de produtos e serviços, incluindo hardware, software, dispositivos 
+ móveis, websites e aplicações.
+
+ \item  CSUQ - Computer System Usability Questionnaire: O CSUQ (Computer System Usability Questionnaire) é uma ferramenta gratuita de medição de satisfação e interação do usuário de um sistema ou site. 
+  A ferramenta apresenta 19 perguntas fixas ao usuário e as mesmas estão relacionadas às metas de usabilidade referentes a interação humano-computador.
+  Além do preenchimento das respostas das questões o usuário também tem a opção de elaborar comentários relacionados a cada tópico. O usuário tem de explicitar qual 
+  o sistema, no caso, site a qual ele está se referindo ao realizar o questionário. O usuário tem de explicitar qual o sistema, no caso, site a qual ele está se referindo 
+  ao realizar o questionário e também um e-mail para o qual seja enviado um relatório com as respostas do mesmo. O relatório é composto pela data e horário aos quais foi 
+  realizada a avaliação e pelas respostas das questões e seus respectivos comentários.
+\end{itemize}
+Para decisão da escolha do questionário foi realizada uma comparação, dadas as metas a serem atingidas, dos questionários avaliados. 
+Essa comparação pode ser vista na Tabela ~\ref{tab:questionarios}. Para preenchimento da tabela os princípios de usabilidade foram numerados da seguinte forma:
+
+1. Visualização do Status do Sistema;
+
+2. Controle e Liberdade do Usuário;
+
+3. Ajuda e Documentação;
+
+4. Reconhecer e diagnosticar erros;
+
+5. Reconhecer objetos do cotidiano.
+
+\begin{table}[t]
+\caption{Comparação entre os questionários}
+\label{Rotulo}
+  \begin{tabular}{p{0.20\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}}
+  \hline
+  \textbf{Questionário} & WAMMI & QUIS & ErgoList & SUMI & SUS & CSUQ \\
+
+  \hline
+
+  \textbf{Possui versão gratuita?} & Sim & Não & Sim & Sim & Sim & Sim \\
+  \textbf{Gera relatório?} & Sim & Sim & Não & Sim & Sim & Sim \\
+  \textbf{Avalia Eficiência?} & Sim & Não & Sim & Sim & Sim & Sim \\
+  \textbf{Avalia Eficácia?} & Não & Não & Não & Sim & Sim & Sim \\
+  \textbf{Avalia Utilidade?} & Sim & Não & Não & Não & Sim & Sim \\
+  \textbf{Avalia Capacidade de Aprendizado?} & Sim & Sim & Não & Sim & Não & Sim \\
+  \textbf{Avalia Capacidade de Memorização?} & Não & Não & Não & Sim & Não & Sim \\
+  \textbf{Avalia quais princípios de usabilidade?} & 1,2,3,4 & 1,3,4 & 1,3,4 & 1,2,3,4 & Usabilidade Geral & 1,2,3,4 \\
+  \textbf{Avalia se é atrativo?} & Sim & Não & Não & Sim & Não & Sim \\
+  \textbf{Avalia se é esteticamente apreciável} & Não & Não & Não & Não & Não & Sim \\
+
+  \hline
+
+  \end{tabular}
+\end{table}
+Após comparar os questionários estudados, nesse projeto será utilizado 
+uma combinação do questionário do CSUQ e de algumas afirmações retiradas da seção de Checklist do ErgoList.

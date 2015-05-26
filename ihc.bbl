@@ -1,0 +1,32 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[BARBOSA e Silva 2011]{BARBOSA}
+\abntrefinfo{BARBOSA e Silva}{BARBOSA; SILVA}{2011}
+{BARBOSA, S. D.~J.; SILVA, B.~S. \emph{Interação Humano-computador}. [S.l.:
+  s.n.], 2011.}
+
+\bibitem[Brasil 2008]{brasil}
+\abntrefinfo{Brasil}{BRASIL}{2008}
+{BRASIL. \emph{ASES - Avaliador e Simulador de Acessibilidade de Sítios}.
+  2008.}
+
+\bibitem[Hix e Hartson 1993]{hix}
+\abntrefinfo{Hix e Hartson}{HIX; HARTSON}{1993}
+{HIX; HARTSON. \emph{Developing User Interfaces: Ensuring Usability Through
+  Product e Process.} 1. ed. [S.l.: s.n.], 1993.}
+
+\bibitem[Preece, rogers e sharp 2011]{preece}
+\abntrefinfo{Preece, rogers e sharp}{PREECE; ROGERS; SHARP}{2011}
+{PREECE; ROGERS; SHARP. \emph{Design de Interação: Além da interação homem
+  computador.} [S.l.: s.n.], 2011.}
+
+\bibitem[The{ }Paciello{ }Group 2013]{cca}
+\abntrefinfo{The{ }Paciello{ }Group}{THE{ }PACIELLO{ }GROUP}{2013}
+{THE{ }PACIELLO{ }GROUP. \emph{Colour Contrast Analyser}. 2013.}
+
+\end{thebibliography}

@@ -1,0 +1,15 @@
+\chapter[Requisitos]{Requisitos}
+
+\begin{tabular}{p{0.15\linewidth}p{0.30\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
+\hline
+Identificador & Descrição & Prioridade & Requisitos Relacionados \\
+\hline
+
+RF01 & O sistema deve permitir o cadastro de áreas de informação: (Universidade de Brasília) & Alta & Não se aplica\\
+
+RF02 & O sistema deve permitir o cadastro de usuários, indicando seu nome, e-mail, áreas que deseja curtir, login e senha & Alta & RF01\\
+
+RF03 & O sistema deve permitir a edição do cadastro do usuário & Alta & RF02\\
+
+\hline
+\end{tabular}
