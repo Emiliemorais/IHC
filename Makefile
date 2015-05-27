@@ -6,4 +6,4 @@ all:
 
 clean:
 	@echo Cleaning files...
-	@rm -f requisitos.aux requisitos.idx requisitos.lof requisitos.toc requisitos.log requisitos.lot setup.log
+	@rm -f ihc.aux ihc.idx ihc.lof ihc.toc ihc.log ihc.lot setup.log

@@ -1,4 +1,4 @@
 #!/bin/bash
-pdflatex requisitos.tex
-bibtex requisitos
-pdflatex requisitos.tex x 2
+pdflatex ihc.tex
+bibtex ihc
+pdflatex ihc.tex x 2
