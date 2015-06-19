@@ -35,3 +35,7 @@
 pi1.bcf
 *~
 *.brf
+*.backup
+*.bbl
+*.pdf
+
