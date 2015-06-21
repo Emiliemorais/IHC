@@ -15,10 +15,24 @@
 {BRASIL. \emph{ASES - Avaliador e Simulador de Acessibilidade de Sítios}.
   2008.}
 
+\bibitem[Brasil 2010]{emag}
+\abntrefinfo{Brasil}{BRASIL}{2010}
+{BRASIL. \emph{e-MAG - Checklist de Acessibilidade Manual para o
+  Desenvolvedor}. [S.l.: s.n.], 2010.}
+
 \bibitem[Hix e Hartson 1993]{hix}
 \abntrefinfo{Hix e Hartson}{HIX; HARTSON}{1993}
 {HIX; HARTSON. \emph{Developing User Interfaces: Ensuring Usability Through
   Product e Process.} 1. ed. [S.l.: s.n.], 1993.}
+
+\bibitem[ISO/IEC{ }9126-1 2003]{iso}
+\abntrefinfo{ISO/IEC{ }9126-1}{ISO/IEC{ }9126-1}{2003}
+{ISO/IEC{ }9126-1. \emph{Software engineering - Product quality - Part 1:
+  Quality model}. [S.l.: s.n.], 2003.}
+
+\bibitem[Nielsen 2000]{nielsen}
+\abntrefinfo{Nielsen}{NIELSEN}{2000}
+{NIELSEN, J. \emph{Why You Only Need to Test with 5 Users}. 2000.}
 
 \bibitem[Preece, rogers e sharp 2011]{preece}
 \abntrefinfo{Preece, rogers e sharp}{PREECE; ROGERS; SHARP}{2011}
