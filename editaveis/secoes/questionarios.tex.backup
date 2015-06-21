@@ -34,7 +34,7 @@ Algumas ferramentas e serviços de questionários de usabilidade foram estudados
   realizada a avaliação e pelas respostas das questões e seus respectivos comentários.
 \end{itemize}
 Para decisão da escolha do questionário foi realizada uma comparação, dadas as metas a serem atingidas, dos questionários avaliados. 
-Essa comparação pode ser vista na Tabela 1. Para preenchimento da tabela os princípios de usabilidade foram numerados da seguinte forma:
+Essa comparação pode ser vista na Tabela ~\ref{tab:questionarios}. Para preenchimento da tabela os princípios de usabilidade foram numerados da seguinte forma:
 
 1. Visualização do Status do Sistema;
 
@@ -46,26 +46,29 @@ Essa comparação pode ser vista na Tabela 1. Para preenchimento da tabela os pr
 
 5. Reconhecer objetos do cotidiano.
 
-\begin{tabular}{p{0.20\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}}
-\hline
-\textbf{Questionário} & WAMMI & QUIS & ErgoList & SUMI & SUS & CSUQ \\
+\begin{table}[t]
+\caption{Comparação entre os questionários}
+\label{tab:questionarios}
+  \begin{tabular}{p{0.20\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}}
+  \hline
+  \textbf{Questionário} & WAMMI & QUIS & ErgoList & SUMI & SUS & CSUQ \\
 
-\hline
+  \hline
 
-\textbf{Possui versão gratuita?} & Sim & Não & Sim & Sim & Sim & Sim \\
-\textbf{Gera relatório?} & Sim & Sim & Não & Sim & Sim & Sim \\
-\textbf{Avalia Eficiência?} & Sim & Não & Sim & Sim & Sim & Sim \\
-\textbf{Avalia Eficácia?} & Não & Não & Não & Sim & Sim & Sim \\
-\textbf{Avalia Utilidade?} & Sim & Não & Não & Não & Sim & Sim \\
-\textbf{Avalia Capacidade de Aprendizado?} & Sim & Sim & Não & Sim & Não & Sim \\
-\textbf{Avalia Capacidade de Memorização?} & Não & Não & Não & Sim & Não & Sim \\
-\textbf{Avalia quais princípios de usabilidade?} & 1,2,3,4 & 1,3,4 & 1,3,4 & 1,2,3,4 & Usabilidade Geral & 1,2,3,4 \\
-\textbf{Avalia se é atrativo?} & Sim & Não & Não & Sim & Não & Sim \\
-\textbf{Avalia se é esteticamente apreciável} & Não & Não & Não & Não & Não & Sim \\
+  \textbf{Possui versão gratuita?} & Sim & Não & Sim & Sim & Sim & Sim \\
+  \textbf{Gera relatório?} & Sim & Sim & Não & Sim & Sim & Sim \\
+  \textbf{Avalia Eficiência?} & Sim & Não & Sim & Sim & Sim & Sim \\
+  \textbf{Avalia Eficácia?} & Não & Não & Não & Sim & Sim & Sim \\
+  \textbf{Avalia Utilidade?} & Sim & Não & Não & Não & Sim & Sim \\
+  \textbf{Avalia Capacidade de Aprendizado?} & Sim & Sim & Não & Sim & Não & Sim \\
+  \textbf{Avalia Capacidade de Memorização?} & Não & Não & Não & Sim & Não & Sim \\
+  \textbf{Avalia quais princípios de usabilidade?} & 1,2,3,4 & 1,3,4 & 1,3,4 & 1,2,3,4 & Usabilidade Geral & 1,2,3,4 \\
+  \textbf{Avalia se é atrativo?} & Sim & Não & Não & Sim & Não & Sim \\
+  \textbf{Avalia se é esteticamente apreciável} & Não & Não & Não & Não & Não & Sim \\
 
-\hline
-%\caption{Requisitos Funcionais}
-\end{tabular}
+  \hline
 
+  \end{tabular}
+\end{table}
 Após comparar os questionários estudados, nesse projeto será utilizado 
 uma combinação do questionário do CSUQ e de algumas afirmações retiradas da seção de Checklist do ErgoList.
